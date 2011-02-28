@@ -1,0 +1,52 @@
+% !TEX TS-program = pdfLaTeX
+% !TEX encoding = UTF-8
+
+%http://www.l.u-tokyo.ac.jp/~fkr/tipa/tipaman.pdf
+%http://www.ling.ohio-state.edu/events/lcc/tutorials/tipachart/tipachart.pdf
+%http://en.wikipedia.org/wiki/French_phonology
+%http://en.wikipedia.org/wiki/Wikipedia:IPA_for_French
+
+\documentclass{article} 
+
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{tipa}
+\usepackage{movie15}
+\usepackage{hyperref}
+
+\begin{document} 
+
+\title{\LARGE Phonétique Française}
+\maketitle
+
+\section{TESTES} 
+
+AA \LARGE{ \textipa{ \textrevepsilon @ \~\ae}  } 
+
+
+
+%\sound{paillard}{Applause.au}
+\includemovie[attach=true,label=bonbons,inline=true,controls=true]{}{}{bonbons.wav}
+
+
+\LARGE{ \textipa{ I Y u}  } \\
+\LARGE{ \textipa{ e \o  @ o }  } \\
+\LARGE{ \textipa{ \textcloseepsilon  \oe  @ O}  } \\
+\LARGE{ \textipa{ \~\textcloseepsilon  \~\oe  \~O}  } \\
+\LARGE{ \textipa{ a A }  }
+
+\movieref{bonbons}{REF}
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
